@@ -3,16 +3,43 @@
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: brown;
+    background-color: grey;
+}
+.container{
+    display: flex;
+}
+#start-button{
+    font: FR73;
+    background-color: gold;
+    color:red;
+}
+#start-button:hover{
+    color:gold;
+    background-color: red;
 }
 .grid div{
     height: 20px;
     width: 20px;
     border-style: solid;
-    border-color: chartreuse;
+    border-color: whitesmoke;
     border-width: 1px 1px 1px 1px;
 
 }
 .tetromino{
     background-color: cadetblue;
+}
+.mini-grid{
+    margin-left: 50px;
+    width:100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+    border-style: solid;
+    border-color: whitesmoke;
+    border-width: 1px 1px 1px 1px;
 }
